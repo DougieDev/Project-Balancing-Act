@@ -1,0 +1,112 @@
+
+
+h1 {
+  padding-left: 70px;
+}
+
+.Welcome {
+  padding: 20px 0px 0px 30px;
+  border: solid teal 1px;
+  margin-left: 70px;
+  height: 50px;
+  width: 400px;
+  background-color: teal;
+}
+
+.Accounts {
+  margin-left: 70px;
+  border: solid yellow 1px;
+  display: inline-block;
+}
+
+.MngAccounts {
+  display: inline-block;
+  float: right;
+}
+
+.Income-Card {
+  display: inline-block;
+  background-color: #fff;
+
+}
+
+.Income {
+  border: solid #fff 1px;
+}
+
+.IncomeAmt  {
+  padding: 1px;
+  border: solid #fff 1px;
+
+}
+
+.Expense-Card {
+  display: inline-block;
+  background-color: #fff;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 110px;
+  padding: 15px;
+}
+
+.Expenses {
+  border: solid #fff 1px;
+  margin: 0px;
+}
+
+.Expense-Amt {
+  border: solid #fff 1px;
+  background-color: #fff;
+  margin: 0px;
+}
+
+.Credit-Card {
+  display: inline-block;
+  background-color: #fff;
+  width: 120px;
+  padding: 15px;
+}
+
+.Credit-Score {
+  border: solid #fff 1px;
+  margin: 0px;
+}
+
+.Credit-Amt {
+  border: solid #fff 1px;
+  margin: 0px;
+}
+
+main {
+  background-color: lightgrey;
+}
+
+.navbar {
+  height: 100%;
+  width: 50px;
+  background-color: grey;
+  position: fixed;
+}
+
+p {
+  margin-left: 70px;
+}
+
+.LeftPage {
+  display: inline-block;
+}
+
+.BottomLeft {
+width: 500px;
+
+}
+
+.RightPage {
+  float: right;
+
+}
+
+.NewTrans {
+  display: inline;
+  float: right;
+}
