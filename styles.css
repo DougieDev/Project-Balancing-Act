@@ -1,4 +1,7 @@
-
+body {
+  color: #363636;
+  font-family: 'Biryani', sans-serif;
+}
 
 h1 {
   padding-left: 70px;
@@ -6,38 +9,40 @@ h1 {
 
 .Welcome {
   padding: 20px 0px 0px 30px;
-  border: solid teal 1px;
   margin-left: 70px;
   height: 50px;
   width: 400px;
-  background-color: teal;
+  background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
+  border-radius: 3px;
 }
 
 .Accounts {
   margin-left: 70px;
-  border: solid yellow 1px;
   display: inline-block;
 }
 
 .MngAccounts {
   display: inline-block;
   float: right;
+  position: relative;
+  ;
+  top: 20px;
 }
 
 .Income-Card {
   display: inline-block;
   background-color: #fff;
-
+  margin-left: 70px;
 }
 
 .Income {
   border: solid #fff 1px;
+  font-size: 65%;
 }
 
-.IncomeAmt  {
+.IncomeAmt {
   padding: 1px;
   border: solid #fff 1px;
-
 }
 
 .Expense-Card {
@@ -52,6 +57,7 @@ h1 {
 .Expenses {
   border: solid #fff 1px;
   margin: 0px;
+  font-size: 65%;
 }
 
 .Expense-Amt {
@@ -70,6 +76,7 @@ h1 {
 .Credit-Score {
   border: solid #fff 1px;
   margin: 0px;
+  font-size: 65%;
 }
 
 .Credit-Amt {
@@ -78,35 +85,67 @@ h1 {
 }
 
 main {
-  background-color: lightgrey;
+  background-color: #F5F5F5;
 }
 
 .navbar {
   height: 100%;
   width: 50px;
-  background-color: grey;
+  background-color: #fff;
   position: fixed;
 }
 
 p {
-  margin-left: 70px;
+
 }
 
 .LeftPage {
   display: inline-block;
+  margin-left: 20px;
 }
 
 .BottomLeft {
-width: 500px;
-
+  width: 500px;
 }
 
 .RightPage {
   float: right;
-
+  display: inline-block;
+  position: relative;
+  /* border: 1px solid black; */
+  width: 500px;
+  bottom: 490px;
+  background-color: white;
+  margin-right: 50px;
+  border-radius: 10px;
 }
 
 .NewTrans {
   display: inline;
   float: right;
+  margin-right: 15px;
+  margin-top: 25px;
+  width: auto;
+}
+
+table {
+  width: 500px;
+  background-color: white;
+  padding: 5px;
+}
+
+.RecentTrans {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+th, td {
+  font-size: 80%;
+  border-bottom: 2px solid #CCCCCC;
+}
+
+button {
+  background-color: #1CA3BA;
+  color: #fff;
+  border-radius: 20px;
 }
