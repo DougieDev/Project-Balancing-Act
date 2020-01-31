@@ -38,11 +38,19 @@ h1 {
 .Income {
   border: solid #fff 1px;
   font-size: 65%;
+  margin-top: 5px;
+  position: relative;
+  top: 10px;
+  margin-left: 10px;
 }
 
 .IncomeAmt {
   padding: 1px;
   border: solid #fff 1px;
+  margin-top: 9px;
+  margin-bottom: 14px;
+  padding-right: 49px;
+  margin-left: 10px;
 }
 
 .Expense-Card {
@@ -95,13 +103,35 @@ main {
   position: fixed;
 }
 
-p {
-
+.elephant {
+  width: 50px;
+  margin-bottom: 170px;
 }
+
+.dashboard {
+  width: 50px;
+  position: relative;
+  right: 45px;
+}
+
+.transactions {
+  width: 50px;
+  position: relative;
+  right: 45px;
+}
+
+.profile {
+  width: 50px;
+  position: relative;
+  right: 45px;
+}
+
+p {}
 
 .LeftPage {
   display: inline-block;
   margin-left: 20px;
+  vertical-align: top;
 }
 
 .BottomLeft {
@@ -109,15 +139,15 @@ p {
 }
 
 .RightPage {
-  float: right;
   display: inline-block;
   position: relative;
+  left: 630px;
   /* border: 1px solid black; */
   width: 500px;
-  bottom: 490px;
+  bottom: 580px;
   background-color: white;
-  margin-right: 50px;
   border-radius: 10px;
+  vertical-align: top;
 }
 
 .NewTrans {
@@ -132,6 +162,7 @@ table {
   width: 500px;
   background-color: white;
   padding: 5px;
+  border-collapse: collapse;
 }
 
 .RecentTrans {
@@ -148,4 +179,84 @@ button {
   background-color: #1CA3BA;
   color: #fff;
   border-radius: 20px;
+}
+
+.AccountCards {
+  margin-left: 70px;
+}
+
+.WellsFargoChk {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.CheckingPic {
+  width: 50px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.WellsFargoSav {
+  background-color: white;
+  margin-top: 7px;
+  border-radius: 5px;
+}
+
+.SavingsPic {
+  width: 50px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.AmazonCard {
+  background-color: white;
+  margin-top: 7px;
+  border-radius: 5px;
+}
+
+.AmazonPic {
+  width: 50px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.SouthwestCard {
+  background-color: white;
+  margin-top: 7px;
+  border-radius: 5px;
+}
+
+.SouthwestPic {
+  width: 50px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.accountname {
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+}
+
+.accounttype {
+  display: inline-block;
+  padding-right: 20px;
+  float: right;
+  margin-top: 23px;
+}
+
+.closeButton {
+  width: 10px;
+  position: relative;
+  left: 476px;
+  top: 50px;
 }
