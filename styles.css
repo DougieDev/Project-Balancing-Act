@@ -5,11 +5,12 @@ body {
 
 h1 {
   padding-left: 70px;
+  margin: 10px 0;
 }
 
 .Welcome {
   padding: 20px 0px 0px 30px;
-  margin-left: 70px;
+  margin: 0 0 10px 0;
   height: 50px;
   width: 400px;
   background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
@@ -17,7 +18,6 @@ h1 {
 }
 
 .Accounts {
-  margin-left: 70px;
   display: inline-block;
 }
 
@@ -25,14 +25,12 @@ h1 {
   display: inline-block;
   float: right;
   position: relative;
-  ;
   top: 20px;
 }
 
 .Income-Card {
   display: inline-block;
   background-color: #fff;
-  margin-left: 70px;
 }
 
 .Income {
@@ -130,7 +128,7 @@ p {}
 
 .LeftPage {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 70px;
   vertical-align: top;
 }
 
@@ -140,14 +138,11 @@ p {}
 
 .RightPage {
   display: inline-block;
-  position: relative;
-  left: 630px;
-  /* border: 1px solid black; */
   width: 500px;
-  bottom: 580px;
   background-color: white;
   border-radius: 10px;
   vertical-align: top;
+  margin-left: 20px;
 }
 
 .NewTrans {
@@ -179,10 +174,6 @@ button {
   background-color: #1CA3BA;
   color: #fff;
   border-radius: 20px;
-}
-
-.AccountCards {
-  margin-left: 70px;
 }
 
 .WellsFargoChk {
@@ -254,9 +245,14 @@ button {
   margin-top: 23px;
 }
 
-.closeButton {
+.closeIcon {
   width: 10px;
-  position: relative;
-  left: 476px;
-  top: 50px;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  position: absolute;
+  left: 480px;
+  margin-top: 7px;
 }
