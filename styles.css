@@ -92,6 +92,7 @@ h1 {
 
 main {
   background-color: #F5F5F5;
+  height: 100vh;
 }
 
 .navbar {
@@ -110,6 +111,7 @@ main {
   width: 50px;
   position: relative;
   right: 45px;
+
 }
 
 .transactions {
@@ -142,7 +144,7 @@ p {}
   background-color: white;
   border-radius: 10px;
   vertical-align: top;
-  margin-left: 20px;
+  margin-left: 70px;
 }
 
 .NewTrans {
@@ -168,6 +170,7 @@ table {
 th, td {
   font-size: 80%;
   border-bottom: 2px solid #CCCCCC;
+  padding: 5px;
 }
 
 button {
@@ -256,3 +259,91 @@ button {
   left: 480px;
   margin-top: 7px;
 }
+
+.Transactions-p2 {
+  display: inline;
+}
+
+/* .table-p2 {
+  margin-left: 70px;
+  display: inline;
+  width: 600px;
+} */
+
+.leftpage-p2 {
+  margin-left: 70px;
+  display: inline-block;
+}
+
+.rightpage-p2 {
+  display: inline;
+  width: 500px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+.form {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 70px;
+  width: 400px;
+  background-color: white;
+}
+
+.NewTransForm {
+  display: inline-block;
+}
+
+select {
+  width: 250px;
+  margin: 0 20px 20px;
+}
+.form-expense {
+  width: 250px;
+  margin: 20px;
+}
+
+.form-category {
+  width: 250px;
+  margin: 20px;
+}
+
+.form-accountfrom {
+  width: 250px;
+  margin: 20px;
+}
+
+input {
+  width: 250px;
+  margin: 20px;
+}
+
+.header-p2 {
+  display: inline-block;
+}
+
+.allbutton {
+  margin-left: 60px;
+}
+
+h6 {
+  margin: 0 20px;
+}
+
+.submitbutton {
+  background-color: #1CA3BA;
+  color: white;
+  border-radius: 20px;
+}
+
+.main2 {
+  display: none;
+}
+
+.buttonSelect {
+  border-left: solid 4px #1CA3BA;
+}
+
+/* .main2pg {
+
+} */
