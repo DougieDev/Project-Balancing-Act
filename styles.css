@@ -111,7 +111,6 @@ main {
   width: 50px;
   position: relative;
   right: 45px;
-
 }
 
 .transactions {
@@ -315,7 +314,7 @@ select {
 
 input {
   width: 250px;
-  margin: 20px;
+  margin: 0 20px 20px;
 }
 
 .header-p2 {
@@ -343,7 +342,3 @@ h6 {
 .buttonSelect {
   border-left: solid 4px #1CA3BA;
 }
-
-/* .main2pg {
-
-} */
